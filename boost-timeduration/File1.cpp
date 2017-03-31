@@ -18,7 +18,7 @@
 {
     boost::posix_time::ptime startTicks(boost::posix_time::microsec_clock::local_time());
 
-    int sleeptime = 1632;
+    int sleeptime = 1000;
     std::cout << "Sleeping for: " << sleeptime << std::endl;
     Sleep(sleeptime);
 
@@ -33,3 +33,8 @@
     system("pause");
     return 0;
 }
+
+//Sleeping for: 1000
+//As long ms: 1000
+//Casted to int: 1000
+//Press anykey to continue...
